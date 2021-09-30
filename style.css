@@ -1,0 +1,78 @@
+:root {
+  --light-grey: #f7f7f7;
+  --grey: #7f7f7f;
+  --charcoal: #2d4654;
+  --nero: #292929;
+  --pink-sherbet: #f2889b;
+}
+* {
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-color: var(--light-grey);
+}
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 13px;
+}
+.col {
+  padding: 2rem 0.5rem;
+  margin: 2rem 0;
+}
+.card {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 1.5rem;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+}
+.image {
+  height: 10rem;
+  margin-bottom: 4rem;
+}
+img {
+  height: 140%;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--charcoal);
+}
+.text {
+  font-size: 14px;
+  margin-bottom: 28px;
+  color: var(--grey);
+  line-height: 1.7;
+  letter-spacing: 1px;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+.btn {
+  display: inline-block;
+  background-color: hsl(245, 75%, 52%);
+  font-size: 14px;
+  border-radius: 0.5rem;
+  padding: 20px;
+  width: 80%;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+a {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .col {
+    margin: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .row {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
