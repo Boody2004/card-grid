@@ -14,7 +14,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 80%;
   padding: 0 13px;
 }
 .col {
@@ -33,6 +33,7 @@ body {
 }
 img {
   height: 140%;
+  border-radius: 1.5rem;
 }
 h2 {
   font-size: 32px;
